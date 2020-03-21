@@ -1,4 +1,4 @@
-/* Website template by freewebsitetemplates.com */
+@import url("news_scroll.css");
 body {
 	margin: 0;
 	padding: 0;
@@ -90,7 +90,7 @@ img {
 }
 /*----------------------------------------body-home-styles---------------------------------------*/
 #body {
-	background: url(../images/bg-home.png) no-repeat center top;
+	background: url(../images/corona1.jpg) no-repeat center top;
 	border-top: 2px solid #252525;
 	margin: 0;
 	overflow: hidden;
@@ -194,7 +194,7 @@ img {
 	margin: 0;
 	padding: 0 0 50px;
 	text-align: center;
-	text-transform: uppercase;
+	
 }
 #body.home div.body div p {
 	background: url(../images/bg-border1.gif) no-repeat center bottom;
@@ -235,7 +235,7 @@ img {
 	margin: 30px auto 0;
 	padding: 0;
 	text-align: center;
-	text-transform: uppercase;
+	
 	width: 230px;
 }
 #body.home div.body div a.more:hover {
@@ -263,8 +263,13 @@ img {
 	margin: 0;
 	padding: 0 0 20px;
 	text-align: center;
-	text-transform: uppercase;
 }
+
+#body .invincibles
+{
+	-webkit-transform: rotate(90deg);
+}
+
 #body div img {
 	display: block;
 	margin: 68px auto 47px;
@@ -490,118 +495,10 @@ img {
 	line-height: 38px;
 	width: 140px;
 }
-#body.contact div img {
-	display: block;
-	margin: 70px auto 37px;
-	padding: 0;
-	width: auto;
-}
 #body.contact div h2 {
 	font-weight: bold;
 	margin: 0 auto 18px;
-	text-transform: uppercase;
-}
-#body.contact div p, #body.contact div a {
-	color: #FFFFFF;
-	display: block;
-	font-family: Arial;
-	font-size: 16px;
-	font-weight: normal;
-	letter-spacing: 0.01em;
-	line-height: 18px;
-	margin: 0 auto 22px;
-	padding: 0;
-	text-align: center;
-	width: 355px;
-}
-#body.contact div p a {
-	color: #FFFFFF;
-	font-family: Arial;
-	font-size: 16px;
-	font-weight: normal;
-	line-height: 48px;
-	margin: 0 auto 37px;
-	padding: 0;
-	text-decoration: underline;
-}
-#body.contact div p a:hover {
-	color: #fc416f;
-}
-#body.contact div h4 {
-	background: url(../images/bg-border1.gif) no-repeat center bottom;
-	color: #FFFFFF;
-	font-family: 'Arial Black';
-	font-size: 30px;
-	font-weight: normal;
-	line-height: 30px;
-	margin: 0;
-	padding: 14px 0 29px;
-	text-align: center;
-	text-transform: uppercase;
-}
-#body.contact div form {
-	display: block;
-	margin: 0 auto;
-	overflow: hidden;
-	padding: 36px 0 0;
-	width: 503px;
-}
-#body.contact div form input {
-	background: none;
-	border: 2px solid #FFFFFF;
-	color: #FFFFFF;
-	display: block;
-	font-family: Arial;
-	font-size: 18px;
-	font-weight: normal;
-	height: 39px;
-	line-height: 43px;
-	margin: 0 0 17px;
-	padding: 0 4px;
-	text-align: center;
-	text-transform: uppercase;
-	width: 491px;
-}
-#body.contact div form textarea {
-	background: none;
-	border: 2px solid #FFFFFF;
-	color: #FFFFFF;
-	display: block;
-	font-family: Arial;
-	font-size: 18px;
-	font-weight: normal;
-	height: 87px;
-	line-height: 24px;
-	margin: 0 0 22px;
-	overflow: auto;
-	padding: 7px 4px 0;
-	resize: none;
-	text-align: center;
-	text-transform: uppercase;
-	width: 491px;
-}
-#body.contact div form input#submit {
-	background: none;
-	border: 2px solid #FFFFFF;
-	color: #FFFFFF;
-	cursor: pointer;
-	display: block;
-	font-family: Arial;
-	font-size: 18px;
-	font-weight: bold;
-	height: 43px;
-	line-height: 43px;
-	margin: 0 auto 16px;
-	padding: 0;
-	text-align: center;
-	text-transform: uppercase;
-	width: 143px;
-}
-#body.contact div form input#submit:hover {
-	background-color: #fb416f;
-	border: none;
-	height: 43px;
-	width: 143px;
+	
 }
 #body.blogsinglepost div img {
 	display: block;
@@ -631,7 +528,7 @@ img {
 	text-align: left;
 	text-transform: uppercase;
 }
-#body.blogsinglepost div div p {
+#body.blogsinglepost div div ul {
 	color: #FFFFFF;
 	font-family: Arial;
 	font-size: 16px;
@@ -640,10 +537,10 @@ img {
 	line-height: 48px;
 	margin: 0 0 48px;
 	padding: 0;
-	text-align: left;
+	
 	width: auto;
 }
-#body.blogsinglepost div div p a {
+#body.blogsinglepost div div ul a {
 	color: #ffffff;
 	font-family: Arial;
 	font-size: 16px;
@@ -653,7 +550,7 @@ img {
 	padding: 0;
 	text-decoration: underline;
 }
-#body.blogsinglepost div div p a:hover {
+#body.blogsinglepost div div ul a:hover {
 	color: #fc416f;
 }
 /*----------------------------------------footer-styles---------------------------------------*/
